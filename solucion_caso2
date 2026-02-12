@@ -1,0 +1,4 @@
+select date from crime_scene where date == '19830715'
+select id, date, type, location, description from crime_scene where date == '19830715'
+select id, clue, crime_scene_id from witnesses where crime_scene_id == '65'
+select name from suspects where bandana_color == 'red' and accessory == 'gold watch '
